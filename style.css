@@ -1,11 +1,35 @@
-/* body{
-    margin: 20px;
+*{
+    font-family: 'Space Mono', monospace;
+    box-sizing: border-box;
+}
+.with-none{
+  list-style-type: none;
+}
+.Container-list h2{
+    background-color: bisque;
 }
 
-.chicken-special-list-container{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+.Container-list{
+    text-align: center;
+    background-color: beige;
+    border: 2px solid rgb(40, 40, 40);
+    margin: 90px;
+    padding: 20px;
 }
-.chicken-special-list-container div{
-} */
+
+.list-head{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.with-none li{
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
+
+.with-none li a{
+    text-decoration: none;
+}
